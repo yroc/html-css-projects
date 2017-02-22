@@ -1,0 +1,198 @@
+body
+{
+  background-color: #E2DCDE;
+}
+
+.face
+{
+  width: 125px;
+  height: 125px;
+  border-radius: 30%
+
+}
+
+#middle-face
+{
+  background-color: #DB8843;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation-name: sway;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#right-middle-face
+{
+  background-color: #119DA4;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 300px;
+  animation-name: sway;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#left-middle-face
+{
+  background-color: #B97375;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -300px;
+  animation-name: sway;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#far-right-face
+{
+  background-color: #74A57F;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 600px;
+  animation-name: sway;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#far-left-face
+{
+  background-color: #CC4BC2;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -600px;
+  animation-name: sway;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.eye
+{
+  background-color: #E2DCDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 40px auto;
+  right: 0;
+  left: 0;
+}
+
+.eye.right
+{
+  transform: translate(-25px);
+}
+
+.eye.left
+{
+  transform: translate(25px);
+}
+
+#middle-face-mouth
+{
+  background-color: #E2DCDE;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+}
+
+#right-middle-face-mouth
+{
+  background-color: #E2DCDE;
+  width: 40px;
+  height: 10px;
+  border-radius: 2px;
+  position: absolute;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+}
+
+#left-middle-face-mouth
+{
+  background-color: #E2DCDE;
+  width: 60px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+}
+
+#far-right-mouth
+{
+  background-color: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+  box-shadow: 0 5px 0 0 #E2DCDE;
+}
+
+#far-left-mouth
+{
+  background-color: none;
+  width: 50px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+  box-shadow: 0 5px 0 0 #E2DCDE;
+}
+
+@keyframes sway
+{
+  from
+  {
+    transform: translateX(0px);
+  }
+  to
+  {
+    transform: translateX(-40px);
+  }
+}
