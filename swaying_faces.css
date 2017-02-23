@@ -11,7 +11,7 @@ body
 
 }
 
-#middle-face
+div.face:nth-child(1)
 {
   background-color: #DB8843;
   position: absolute;
@@ -27,7 +27,7 @@ body
   animation-iteration-count: infinite;
 }
 
-#right-middle-face
+div.face:nth-child(2)
 {
   background-color: #119DA4;
   position: absolute;
@@ -43,7 +43,7 @@ body
   animation-iteration-count: infinite;
 }
 
-#left-middle-face
+div.face:nth-child(3)
 {
   background-color: #B97375;
   position: absolute;
@@ -59,7 +59,7 @@ body
   animation-iteration-count: infinite;
 }
 
-#far-right-face
+div.face:nth-child(4)
 {
   background-color: #74A57F;
   position: absolute;
@@ -75,7 +75,7 @@ body
   animation-iteration-count: infinite;
 }
 
-#far-left-face
+div.face:nth-child(5)
 {
   background-color: #CC4BC2;
   position: absolute;
@@ -103,17 +103,17 @@ body
   left: 0;
 }
 
-.right-eye
+div.eye:nth-child(1)
 {
   transform: translate(-25px);
 }
 
-.left-eye
+div.eye:nth-child(2)
 {
   transform: translate(25px);
 }
 
-#middle-face > .mouth
+div.face:nth-child(1) > .mouth
 {
   background-color: #E2DCDE;
   width: 40px;
@@ -127,7 +127,7 @@ body
   left: 0;
 }
 
-#right-middle-face > .mouth
+div.face:nth-child(2) > .mouth
 {
   background-color: #E2DCDE;
   width: 40px;
@@ -141,7 +141,7 @@ body
   left: 0;
 }
 
-#left-middle-face > .mouth
+div.face:nth-child(3) > .mouth
 {
   background-color: #E2DCDE;
   width: 60px;
@@ -155,7 +155,7 @@ body
   left: 0;
 }
 
-#far-right-face > .mouth
+div.face:nth-child(4) > .mouth
 {
   background-color: none;
   width: 20px;
@@ -170,7 +170,7 @@ body
   box-shadow: 0 5px 0 0 #E2DCDE;
 }
 
-#far-left-face > .mouth
+div.face:nth-child(5) > .mouth
 {
   background-color: none;
   width: 50px;
