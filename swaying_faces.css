@@ -103,12 +103,12 @@ body
   left: 0;
 }
 
-.eye.right
+.right-eye
 {
   transform: translate(-25px);
 }
 
-.eye.left
+.left-eye
 {
   transform: translate(25px);
 }
