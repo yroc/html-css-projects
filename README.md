@@ -18,10 +18,16 @@ In CSS, a circle is simply a square (a special case of rectangle) with `border-r
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
 ### Creating a parallelogram
-
 Files: `parallelogram.html`, `parallelogram.css`
 
 Of course, a rectangle *is* a parallelogram. But to create a parallelogram of *arbitrary* internal angle, start with a rectangle and skew it with the `transform: skewX()` property.
+
+Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
+
+### Creating a trapezoid
+Files: `trapezoid.html`, `trapezoid.css`
+
+Creating a trapezoid is interesting; you&rsquo;re not so much creating a trapezoid as you are creating the *illusion* of a trapezoid. Here&rsquo;s the basic idea: place a rectangle inside a &ldquo;3D perspective&rdquo;, and rotate the rectangle along the <var>x</var>-axis, and you have what *looks like*, from the viewer&rsquo;s perspective, a trapezoid.
 
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
