@@ -1,6 +1,6 @@
 # HTML-CSS Projects
 ## Introduction
-These projects are designed to demonstrate what can be done with HTML and CSS *alone* (i.e., without any JS). Projects are generally listed from the most basic/easiest to the most challenging.
+These projects are designed to demonstrate the web graphics and animation that can be done with HTML and CSS *alone* (i.e., without any JS). Projects are generally listed from the most basic/easiest to the most challenging.
 
 ## Projects
 ### Creating a rectangle
