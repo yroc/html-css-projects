@@ -4,7 +4,7 @@ These projects are designed to demonstrate the web graphics and animation work t
 
 ## Projects
 ### Creating a rectangle
-Create a `div` class `rectangle`. As soon as you give it a width (`width`), height (`height`), and background color (`background-color`), you&rsquo;ve got yourself a rectangle.
+Create a `div` of class `rectangle`. As soon as you give the `div` a width (`width`), height (`height`), and background color (`background-color`), you&rsquo;ve got yourself a rectangle.
 
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
