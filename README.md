@@ -10,6 +10,13 @@ Create a `div` of class `rectangle`. As soon as you give the `div` a width (`wid
 
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
+### Creating a circle
+Files: `circle.html`, `circle.css`
+
+In CSS, a circle is simply a square (a special case of rectangle) with `border-radius` set to 50%.
+
+Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
+
 ### Swaying Faces
 Files: `swaying_faces`, `swaying_faces.css`
 
