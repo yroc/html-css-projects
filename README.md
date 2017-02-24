@@ -17,6 +17,14 @@ In CSS, a circle is simply a square (a special case of rectangle) with `border-r
 
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
+### Creating a parallelogram
+
+Files: `parallelogram.html`, `parallelogram.css`
+
+Of course, a rectangle *is* a parallelogram. But to create a parallelogram of *arbitrary* internal angle, start with a rectangle and skew it with the `transform: skewX()` property.
+
+Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
+
 ### Swaying Faces
 Files: `swaying_faces`, `swaying_faces.css`
 
