@@ -27,7 +27,14 @@ Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helab
 ### Creating a trapezoid
 Files: `trapezoid.html`, `trapezoid.css`
 
-Creating a trapezoid is interesting; you&rsquo;re not so much creating a trapezoid as you are creating the *illusion* of a trapezoid. Here&rsquo;s the basic idea: place a rectangle inside a &ldquo;3D perspective&rdquo;, and rotate the rectangle along the <var>x</var>-axis, and you have what *looks like*, from the viewer&rsquo;s perspective, a trapezoid.
+There&rsquo;s an interesting alternative way of creating a trapezoid, where you&rsquo;re not so much creating a trapezoid as you are creating the *illusion* of a trapezoid. Here&rsquo;s the basic idea: place a rectangle inside a &ldquo;3D perspective&rdquo;, and rotate the rectangle along the <var>x</var>-axis, and you have what *looks like*, from the viewer&rsquo;s perspective, a trapezoid.
+
+Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
+
+### Creating a hexagon
+Files: `hexagon.html`, `hexagon.css`
+
+One way to construct a trapezoid is from two trapezoids&mdash;one right-side-up and one up-side-down.
 
 Source: [Pocket Guide to CSS-only Drawings and Animations](https://journal.helabs.com/pocket-guide-to-css-only-drawings-and-animations-781470436ecc?imm_mid=0edae8#.lcfjfqu9d)
 
