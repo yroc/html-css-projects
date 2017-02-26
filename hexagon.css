@@ -1,0 +1,39 @@
+div
+{
+  margin: 20px;
+  display: inline-block;
+}
+
+.hexagon
+{
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.perspective
+{
+  perspective: 50px;
+  position: absolute;
+}
+
+.trapezoid
+{
+  width: 50px;
+  height: 50px;
+  background-color: #1BCDD0;
+  transform: rotateX(50deg);
+}
+
+.perspective:nth-child(1)
+{
+  top: -50px;
+  left: -30px;
+}
+
+.perspective:nth-child(2)
+{
+  top: -5px;
+  left: -30px;
+  transform: rotateZ(180deg);
+}
